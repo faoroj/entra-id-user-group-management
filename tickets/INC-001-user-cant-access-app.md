@@ -4,7 +4,7 @@
 **User impact:**  
 **Service/app:**  
 **Priority:** Low / Medium / High  
-**Status:** Resolved / Monitoring / Escalated
+**Status:** Resolved
 
 ## Reported Symptoms
 - User can authenticate successfully
@@ -18,9 +18,10 @@
 - Licensing involved:
 
 ## Investigation Timeline
-1. 
-2. 
-3. 
+1. Verified user account exists and is enabled
+2. Confirmed successful authentication to the Microsoft 365 portal
+3. Verified no licenses assigned directly to the user
+4. Reviewed group memberships and confirmed the user is not a member of any licensing groups
 
 ## Evidence
 - User account enabled with no assigned licenses  
@@ -29,7 +30,7 @@
   (`evidence/screenshots/sign-in-logs/itp-user01-no-access.png`)
 
 ## Root Cause
--
+- User was not added to the security group responsible for Microsoft 365 license assignment.
 
 ## Resolution
 -
