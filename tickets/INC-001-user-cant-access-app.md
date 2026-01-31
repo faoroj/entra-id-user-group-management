@@ -7,7 +7,9 @@
 **Status:** Resolved / Monitoring / Escalated
 
 ## Reported Symptoms
-- 
+- User can authenticate successfully
+- Microsoft 365 portal loads, but no core applications are available
+- Banner message indicates missing or recently assigned license
 
 ## Environment
 - Tenant:
@@ -21,8 +23,10 @@
 3. 
 
 ## Evidence
-- Screenshot: `evidence/screenshots/...`
-- Logs reviewed: (Sign-in logs / Audit logs / Group membership / License assignment)
+- User account enabled with no assigned licenses  
+  (`evidence/screenshots/users/itp-user01-overview.png`)
+- User sign-in successful, but no app access  
+  (`evidence/screenshots/sign-in-logs/itp-user01-no-access.png`)
 
 ## Root Cause
 -
