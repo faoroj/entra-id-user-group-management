@@ -36,6 +36,7 @@ Scope includes user and group management, group-based licensing, and ticket-styl
 - Screenshots are stored under `/evidence/screenshots/`.
 
 ## Repository Structure
+```text
 entra-id-user-group-management/
 ├─ README.md
 ├─ docs/
