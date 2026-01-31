@@ -1,0 +1,1 @@
+# entra-id-user-group-management
