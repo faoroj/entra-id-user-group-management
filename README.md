@@ -34,3 +34,33 @@ Scope includes user and group management, group-based licensing, and ticket-styl
 ## Notes
 - All user names are test accounts.
 - Screenshots are stored under `/evidence/screenshots/`.
+
+## Repository Structure
+entra-id-user-group-management/
+├─ README.md
+├─ docs/
+│  ├─ environment-setup.md
+│  ├─ user-management.md
+│  ├─ group-management.md
+│  ├─ group-based-licensing.md
+│  ├─ access-validation.md
+│  └─ troubleshooting-overview.md
+├─ tickets/
+│  ├─ ticket-01-user-cant-access-app.md
+│  ├─ ticket-02-license-not-applying.md
+│  ├─ ticket-03-group-membership-delay.md
+│  └─ ticket-04-user-disabled-sign-in-failure.md
+├─ screenshots/
+│  ├─ environment/
+│  ├─ users/
+│  ├─ groups/
+│  ├─ licensing/
+│  ├─ access-tests/
+│  └─ tickets/
+│     ├─ ticket-01/
+│     ├─ ticket-02/
+│     ├─ ticket-03/
+│     └─ ticket-04/
+└─ templates/
+   └─ ticket-template.md
+
