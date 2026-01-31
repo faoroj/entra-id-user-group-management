@@ -31,8 +31,7 @@
 -
 
 ## Verification
-- What you checked to confirm the fix:
-  - 
+- What you checked to confirm the fix: 
 
 ## Preventive / Follow-up
 - 
