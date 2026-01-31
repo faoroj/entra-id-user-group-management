@@ -1,4 +1,4 @@
-# Microsoft Entra ID — User & Group Management (IT Analyst Portfolio)
+# Microsoft Entra ID — User & Group Management
 
 ## Overview
 This repository demonstrates hands-on identity and access administration using Microsoft Entra ID (Azure AD).  
