@@ -1,9 +1,9 @@
 # INC-001 — User Can’t Access Application
 
 ## Summary
-**User impact:**  
-**Service/app:**  
-**Priority:** Low / Medium / High  
+**User impact:** User is unable to access Microsoft 365 applications after account creation 
+**Service/app:** Microsoft 365 / Microsoft Entra ID 
+**Priority:** Medium 
 **Status:** Resolved
 
 ## Reported Symptoms
@@ -12,10 +12,10 @@
 - Banner message indicates missing or recently assigned license
 
 ## Environment
-- Tenant:
-- User:
-- Groups involved:
-- Licensing involved:
+- Tenant: Arcadia408 Microsoft Entra ID test tenant
+- User: itp-user01 (ITP User One)
+- Groups involved: IT-Test-Users
+- Licensing involved: Microsoft 365 (group-based licensing via Microsoft 365 Admin Center)
 
 ## Investigation Timeline
 1. Verified user account exists and is enabled
@@ -26,17 +26,26 @@
 ## Evidence
 - User account enabled with no assigned licenses  
   (`evidence/screenshots/users/itp-user01-overview.png`)
-- User sign-in successful, but no app access  
-  (`evidence/screenshots/sign-in-logs/itp-user01-no-access.png`)
+- Licensing group contained no assigned licenses  
+  (`evidence/screenshots/licensing/IT-Test-Users-no-license.png`)
+- Microsoft 365 license assigned to the IT-Test-Users group  
+  (`evidence/screenshots/licensing/IT-Test-Users-license-assigned.png`)
+- License successfully applied to the user  
+  (`evidence/screenshots/licensing/itp-user01-license-applied.png`)
+- User can access Microsoft 365 apps after re-authentication  
+  (`evidence/screenshots/sign-in-logs/itp-user01-access-restored.png`)
 
 ## Root Cause
 - User was not added to the security group responsible for Microsoft 365 license assignment.
 
 ## Resolution
--
+- Assigned a Microsoft 365 license to the IT-Test-Users security group using the Microsoft 365 Admin Center, allowing the affected user to receive the license through group-based assignment.
+
 
 ## Verification
-- What you checked to confirm the fix: 
+- Confirmed Microsoft 365 license applied to itp-user01 via group membership
+- Verified Microsoft 365 applications were accessible after user re-authentication
 
 ## Preventive / Follow-up
-- 
+- Standardize the use of licensed security groups for user onboarding
+- Validate license assignment during user creation to prevent access delays
