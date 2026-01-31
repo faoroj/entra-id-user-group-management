@@ -34,6 +34,8 @@ Scope includes user and group management, group-based licensing, and ticket-styl
 ## Notes
 - All user names are test accounts.
 - Screenshots are stored under `/evidence/screenshots/`.
+  
+---
 
 ## Repository Structure
 ```text
