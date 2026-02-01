@@ -23,8 +23,10 @@
 4. Validated no configuration issues with group or licensing
 
 ## Evidence
-- evidence/screenshots/groups/itp-user01-group-added.png
-- evidence/screenshots/sign-in-logs/itp-user01-access-delay.png
+- License successfully applied to the user  
+  (`evidence/screenshots/groups/itp-user01-group-added.png`)
+- User can access Microsoft 365 apps after re-authentication  
+  (`evidence/screenshots/sign-in-logs/itp-user01-access-delay.png`)
 
 ## Root Cause
 Group membership changes require time to propagate across Microsoft Entra ID and dependent Microsoft 365 services, resulting in a temporary delay before access becomes effective.
