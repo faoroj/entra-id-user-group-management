@@ -17,22 +17,26 @@
 - Licensing involved: Microsoft 365 (group-based licensing)
 
 ## Investigation Timeline
-1. 
-2. 
-3. 
+1. Verified sign-in failure occurs immediately
+2. Reviewed user account status in Entra ID
+3. Confirmed user account is disabled
+4. No license or group misconfiguration identified
 
 ## Evidence
 - Screenshot: `evidence/screenshots/...`
 - Logs reviewed: (Sign-in logs / Audit logs / Group membership / License assignment)
 
 ## Root Cause
--
+- User account was disabled, preventing authentication to Microsoft 365 services.
 
 ## Resolution
--
+- Re-enabled user account in Microsoft Entra ID after confirming no security or policy restrictions were in place.
 
 ## Verification
-- What you checked to confirm the fix: 
+- Confirmed user account enabled
+- Verified successful authentication to Microsoft 365 services
 
 ## Preventive / Follow-up
-- 
+- Validate account status before initiating password resets
+- Review administrative disablement reasons before re-enabling accounts
+- Document account status changes for audit purposes
