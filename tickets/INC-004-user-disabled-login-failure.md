@@ -23,8 +23,12 @@
 4. No license or group misconfiguration identified
 
 ## Evidence
-- Screenshot: `evidence/screenshots/...`
-- Logs reviewed: (Sign-in logs / Audit logs / Group membership / License assignment)
+- User account confirmed disabled in Microsoft Entra ID  
+  (`evidence/screenshots/users/itp-user01-account-disabled.png`)
+- Authentication fails immediately; the sign-in process loops and does not complete  
+  (`evidence/screenshots/sign-in-logs/itp-user01-disabled-signin.png`)
+- Successful authentication observed after account re-enabled  
+  (`evidence/screenshots/sign-in-logs/itp-user01-signin-restored.png`)
 
 ## Root Cause
 - User account was disabled, preventing authentication to Microsoft 365 services.
