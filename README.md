@@ -42,28 +42,26 @@ Scope includes user and group management, group-based licensing, and ticket-styl
 entra-id-user-group-management/
 ├─ README.md
 ├─ docs/
-│  ├─ environment-setup.md
-│  ├─ user-management.md
-│  ├─ group-management.md
-│  ├─ group-based-licensing.md
-│  ├─ access-validation.md
-│  └─ troubleshooting-overview.md
+│  ├─ 00-lab-setup.md
+│  ├─ 01-user-management.md
+│  ├─ 02-group-management.md
+│  ├─ 03-group-based-licensing.md
+│  ├─ 04-access-tests.md
+│  ├─ 05-troubleshooting-tickets.md
+│  └─ glossary.md
 ├─ tickets/
-│  ├─ ticket-01-user-cant-access-app.md
-│  ├─ ticket-02-license-not-applying.md
-│  ├─ ticket-03-group-membership-delay.md
-│  └─ ticket-04-user-disabled-sign-in-failure.md
-├─ screenshots/
-│  ├─ environment/
-│  ├─ users/
-│  ├─ groups/
-│  ├─ licensing/
-│  ├─ access-tests/
-│  └─ tickets/
-│     ├─ ticket-01/
-│     ├─ ticket-02/
-│     ├─ ticket-03/
-│     └─ ticket-04/
+│  ├─ INC-001-user-cant-access-app.md
+│  ├─ INC-002-license-not-applying.md
+│  ├─ INC-003-group-membership-delay.md
+│  └─ INC-004-user-disabled-login-failure.md
+├─ evidence/
+│  ├─ screenshots/
+│  │  ├─ users/
+│  │  ├─ groups/
+│  │  ├─ licensing/
+│  │  └─ sign-in-logs/
 └─ templates/
-   └─ ticket-template.md
+   ├─ ticket-template.md
+   └─ change-log-template.md
+
 
