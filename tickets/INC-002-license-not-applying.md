@@ -25,7 +25,8 @@
 
 ## Evidence
 - License successfully applied via group-based licensing  
-  (`evidence/screenshots/licensing/itp-user01-license-applied.png`)
+  [User license state screenshot](../evidence/screenshots/licensing/itp-user01-license-applied.png)
+
 
 ## Root Cause
 - Microsoft 365 license assignment via group-based licensing was delayed due to normal propagation timing between Entra ID and Microsoft 365 services.
