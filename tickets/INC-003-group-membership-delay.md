@@ -23,9 +23,9 @@
 4. Validated no configuration issues with group or licensing
 
 ## Evidence
-- License successfully applied to the user  
+- User successfully added to IT-Test-Users security group  
   (`evidence/screenshots/groups/itp-user01-group-added.png`)
-- User can access Microsoft 365 apps after re-authentication  
+- Microsoft 365 service access is not immediately available following a group membership change  
   (`evidence/screenshots/sign-in-logs/itp-user01-access-delay.png`)
 
 ## Root Cause
