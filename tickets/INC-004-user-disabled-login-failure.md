@@ -24,11 +24,12 @@
 
 ## Evidence
 - User account confirmed disabled in Microsoft Entra ID  
-  (`evidence/screenshots/users/itp-user01-account-disabled.png`)
+  [Account disabled screenshot](../evidence/screenshots/users/itp-user01-account-disabled.png)
 - Authentication fails immediately; the sign-in process loops and does not complete  
-  (`evidence/screenshots/sign-in-logs/itp-user01-disabled-signin.png`)
+  [Disabled sign-in behavior screenshot](../evidence/screenshots/sign-in-logs/itp-user01-disabled-signin.png)
 - Successful authentication observed after account re-enabled  
-  (`evidence/screenshots/sign-in-logs/itp-user01-signin-restored.png`)
+  [Sign-in restored screenshot](../evidence/screenshots/sign-in-logs/itp-user01-signin-restored.png)
+
 
 ## Root Cause
 - User account was disabled, preventing authentication to Microsoft 365 services.
