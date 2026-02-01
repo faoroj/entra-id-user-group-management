@@ -17,22 +17,29 @@
 - Licensing involved: Microsoft 365 (group-based licensing)
 
 ## Investigation Timeline
-1. 
-2. 
-3. 
+1. Verified user account is enabled
+2. Confirmed user was added to the IT-Test-Users security group
+3. Observed a delay between group membership change and effective access
+4. Validated no configuration issues with group or licensing
 
 ## Evidence
-- Screenshot: `evidence/screenshots/...`
-- Logs reviewed: (Sign-in logs / Audit logs / Group membership / License assignment)
+- evidence/screenshots/groups/itp-user01-group-added.png
+- evidence/screenshots/sign-in-logs/itp-user01-access-delay.png
 
 ## Root Cause
--
+Group membership changes require time to propagate across Microsoft Entra ID and dependent Microsoft 365 services, resulting in a temporary delay before access becomes effective.
+
 
 ## Resolution
--
+No configuration changes were required. Allowed time for group membership changes to propagate and monitored access until successful.
+
 
 ## Verification
-- What you checked to confirm the fix: 
+- Confirmed group membership reflected correctly on the user object
+- Verified access to Microsoft 365 resources after propagation
+
 
 ## Preventive / Follow-up
-- 
+- Communicate expected group membership propagation delays to users
+- Avoid repeated group changes during short timeframes
+- Validate access after propagation before escalating
