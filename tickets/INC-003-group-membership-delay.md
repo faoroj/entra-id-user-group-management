@@ -24,9 +24,10 @@
 
 ## Evidence
 - User successfully added to IT-Test-Users security group  
-  (`evidence/screenshots/groups/itp-user01-group-added.png`)
+  [Group membership confirmation screenshot](../evidence/screenshots/groups/itp-user01-group-added.png)
 - Microsoft 365 service access is not immediately available following a group membership change  
-  (`evidence/screenshots/sign-in-logs/itp-user01-access-delay.png`)
+  [Service access delay screenshot](../evidence/screenshots/sign-in-logs/itp-user01-access-delay.png)
+
 
 ## Root Cause
 Group membership changes require time to propagate across Microsoft Entra ID and dependent Microsoft 365 services, resulting in a temporary delay before access becomes effective.
