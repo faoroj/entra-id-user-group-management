@@ -25,15 +25,16 @@
 
 ## Evidence
 - User account enabled with no assigned licenses  
-  [User overview screenshot](evidence/screenshots/users/itp-user01-overview.png)
+  [User overview screenshot](../evidence/screenshots/users/itp-user01-overview.png)
 - Licensing group contained no assigned licenses  
-  [Group licensing screenshot](evidence/screenshots/licensing/itp-user01-no-license.png)
+  [Group licensing screenshot](../evidence/screenshots/licensing/IT-Test-Users-no-license.png)
 - Microsoft 365 license assigned to the IT-Test-Users group  
-  [License assignment screenshot](evidence/screenshots/licensing/IT-Test-Users-license-assigned.png)
+  [License assignment screenshot](../evidence/screenshots/licensing/IT-Test-Users-license-assigned.png)
 - License successfully applied to the user  
-  [User license state screenshot](evidence/screenshots/licensing/itp-user01-license-applied.png)
+  [User license state screenshot](../evidence/screenshots/licensing/itp-user01-license-applied.png)
 - User can access Microsoft 365 apps after re-authentication  
-  [User access restored screenshot](evidence/screenshots/sign-in-logs/itp-user01-access-restored.png)
+  [User access restored screenshot](../evidence/screenshots/sign-in-logs/itp-user01-access-restored.png)
+
 
 
 ## Root Cause
